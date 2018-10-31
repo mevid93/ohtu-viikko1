@@ -1,1 +1,0 @@
-muutos git add -p komentoa varten
