@@ -1,0 +1,6 @@
+# ignore files in root folder with tmp-extension
+*.tmp
+
+# ignore build directory
+build/
+
