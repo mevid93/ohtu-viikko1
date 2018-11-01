@@ -4,3 +4,7 @@
 # ignore build directory
 build/
 
+# gradle properties
+gradle.properties
+
+/.nb-gradle/
