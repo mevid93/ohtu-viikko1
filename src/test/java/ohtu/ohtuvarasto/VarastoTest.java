@@ -133,8 +133,8 @@ public class VarastoTest {
     
     @Test
     public void tarkempiKonstruktoriPienemmallaTilavuudella() {
-        Varasto varasto1 = new Varasto(6, 8);
-        assertEquals(6, varasto1.getTilavuus(), vertailuTarkkuus);
-        assertEquals(6, varasto1.getSaldo(), vertailuTarkkuus);
+        Varasto varasto1 = new Varasto(7, 8);
+        assertEquals(7, varasto1.getTilavuus(), vertailuTarkkuus);
+        assertEquals(7, varasto1.getSaldo(), vertailuTarkkuus);
     }
 }
