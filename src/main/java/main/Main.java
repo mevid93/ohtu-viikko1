@@ -7,17 +7,17 @@ import ohtu.ohtuvarasto.Varasto;
 public class Main {
 
     // magic numbers
-    static final int TILAVUUS = 100;
-    static final int ISO_OTTO = 1000;
-    static final double KESKISUURI = 50.7;
-    static final int ISO_NEGATIIVINEN = -666;
-    static final double PIENI_NEGATIIVINEN = -32.9;
-    static final double PIENI_OTTO = 3.14;
-    static final double ALKUKAMAT = 20.2;
+    private static final int TILAVUUS = 100;
+    private static final int ISO_OTTO = 1000;
+    private static final double KESKISUURI = 50.7;
+    private static final int ISO_NEGATIIVINEN = -666;
+    private static final double PIENI_NEGATIIVINEN = -32.9;
+    private static final double PIENI_OTTO = 3.14;
+    private static final double ALKUKAMAT = 20.2;
 
     // varastot
-    static Varasto mehua = new Varasto(TILAVUUS);
-    static Varasto olutta = new Varasto(TILAVUUS, ALKUKAMAT);
+    private static Varasto mehua = new Varasto(TILAVUUS);
+    private static Varasto olutta = new Varasto(TILAVUUS, ALKUKAMAT);
 
     public static void main(String[] args) {
         tilanneLuonninJalkeen();
