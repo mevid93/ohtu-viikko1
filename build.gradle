@@ -53,3 +53,7 @@ jacocoTestReport {
         })
     }
 }
+
+checkstyle {
+    sourceSets = [project.sourceSets.main]
+}
